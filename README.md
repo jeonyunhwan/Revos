@@ -3,11 +3,11 @@
 JWT 공부하는 중 만들어본 로그인/회원가입 API
 ------------
 ## 환경 설정
-SPRING BOOT 2.7.14(SNAP-SHOT)
-POSTGRESQL
-SPRING DATA JPA
-JWT
-LOMBOK
+- SPRING BOOT 2.7.14(SNAP-SHOT)
+- POSTGRESQL
+- SPRING DATA JPA
+- JWT
+- LOMBOK
 
 ------------
 ## PROJECT 설명
