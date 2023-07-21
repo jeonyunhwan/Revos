@@ -1,7 +1,27 @@
-# Revos
-Review - platform
+# JWT LOGIN, REGISTER PROCESS
+------------
+JWT 공부하는 중 만들어본 로그인/회원가입 API
+------------
+## 환경 설정
+SPRING BOOT 2.7.14(SNAP-SHOT)
+POSTGRESQL
+SPRING DATA JPA
+JWT
+LOMBOK
 
-
+------------
+## PROJECT 설명
+1. Spring boot + JPA + POSTGRESQL + Security 
+2. package 구조 : Domain 구조 
+3. 회원가입 시 EMAIL,NAME,PASSWORD,ROLE
+4. PASSWORD BCrypt Decoding 하여 DB 입력
+5. SPRING SECURITY 설정
+6. 로그인 시 EMAIL, PASSWORD 입력
+7. 권한 ROLE("USER"), ROLE("ADMIN")
+8. JwtToken 만들기
+9. JWT Filter를 이용하여 jwt 인가/인증 처리
+10. 예외처리는 CustomException 처리하여 상황에 맞게 예외 반환
+ ------------
 <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: 0 auto; text-align: center;" align= "center">
