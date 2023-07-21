@@ -28,7 +28,6 @@ public class Member{
     @Enumerated(value = EnumType.STRING)
     private Role role;
 
-
     @Builder
     public Member(String email, String password, String name, Role role) {
         this.email = email;
